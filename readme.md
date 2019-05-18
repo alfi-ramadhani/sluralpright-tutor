@@ -1,6 +1,6 @@
 # Sluralpight Login Page Clone
 
-Web design using HTML & CSS Tutorial.
+Web design using HTML & SASS Tutorial.
 
 ## Credit
 
