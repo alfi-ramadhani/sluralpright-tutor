@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
   <title>Sign In - Sluralpight</title>
 </head>
 <body>
@@ -13,7 +13,8 @@
     <div id="left">
       <div id="signin">
         <div class="logo">
-          <img src="img/login-logo.png" alt="Sluralpight">
+          <!-- <img src="img/login-logo.png" alt="Sluralpight"> -->
+          <img src="img/login-logo.svg" alt="Sluralpight">
         </div>
 
         <form>
@@ -44,7 +45,7 @@
         <a href="#" class="secondary-btn">Create an account</a>
 
         <footer id="main-footer">
-          <p>Copyright &copy; 2019 • Sluralpight • All rights reserved.</p>
+          <p>Copyright &copy; <?php echo date("Y");?> • Sluralpight • All rights reserved.</p>
           <div>
             <a href="#">Terms of use</a> | <a href="#">Privacy Policy</a>
           </div>
